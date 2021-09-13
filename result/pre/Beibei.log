@@ -1,0 +1,9 @@
+2021-05-20 11:51:04.784 | INFO     | __main__:<module>:19 - Namespace(name='Beibei')
+2021-05-20 11:51:05.636 | INFO     | __main__:<module>:25 - Beibei Data Loaded Successfully!
+2021-05-20 11:51:05.649 | INFO     | __main__:<module>:32 - Beibei Number of Users: 21716
+2021-05-20 11:51:05.649 | INFO     | __main__:<module>:33 - Beibei Number of Items: 7977
+2021-05-20 11:51:12.969 | INFO     | __main__:<module>:43 - Beibei View Train Data Completed!
+2021-05-20 11:51:19.715 | INFO     | __main__:<module>:53 - Beibei Cart Train Data Completed!
+2021-05-20 11:51:25.972 | INFO     | __main__:<module>:57 - Beibei Buy Train Completed!
+2021-05-20 11:51:29.014 | INFO     | __main__:<module>:62 - Beibei Buy Test Completed!
+2021-05-20 11:51:45.608 | INFO     | __main__:<module>:82 - Beibei User-Item Interaction Adjacent Matrix Completed!

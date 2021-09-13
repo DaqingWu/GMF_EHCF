@@ -1,0 +1,263 @@
+2021-05-20 12:21:34.124 | INFO     | __main__:<module>:46 - Namespace(batch_size=512, name='Beibei', dim_embedding=64, dropout=0.5, epochs=200, gpu=1, lambdas={'view': 0.05, 'cart': 0.8, 'buy': 0.15}, lr=0.05, module='EHCF', mu={'para': 0.0001, 'embed': 0.001}, seed=2021, weight_negative=0.1)
+2021-05-20 12:21:34.125 | INFO     | __main__:<module>:48 - Beibei EHCF Running... ...
+2021-05-20 12:21:38.511 | INFO     | __main__:<module>:57 - Beibei EHCF Data Loaded Successfully!
+2021-05-20 12:21:45.284 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [1/200]
+2021-05-20 12:21:48.906 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [2/200]
+2021-05-20 12:21:52.538 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [3/200]
+2021-05-20 12:21:56.164 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [4/200]
+2021-05-20 12:21:59.789 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [5/200]
+2021-05-20 12:22:03.400 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [6/200]
+2021-05-20 12:22:07.017 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [7/200]
+2021-05-20 12:22:10.661 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [8/200]
+2021-05-20 12:22:14.295 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [9/200]
+2021-05-20 12:22:17.917 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [10/200]
+2021-05-20 12:22:28.232 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:22:36.829 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.0917, HR@50:0.2465, HR@100:0.3490, HR@200:0.4777
+2021-05-20 12:22:36.830 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0478, NDCG@50:0.0812, NDCG@100:0.0978, NDCG@200:0.1158
+2021-05-20 12:22:40.463 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [11/200]
+2021-05-20 12:22:44.102 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [12/200]
+2021-05-20 12:22:47.754 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [13/200]
+2021-05-20 12:22:51.395 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [14/200]
+2021-05-20 12:22:55.018 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [15/200]
+2021-05-20 12:22:58.676 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [16/200]
+2021-05-20 12:23:02.340 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [17/200]
+2021-05-20 12:23:06.007 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [18/200]
+2021-05-20 12:23:09.644 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [19/200]
+2021-05-20 12:23:13.316 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [20/200]
+2021-05-20 12:23:23.238 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:23:30.231 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1227, HR@50:0.2835, HR@100:0.3878, HR@200:0.5111
+2021-05-20 12:23:30.231 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0644, NDCG@50:0.0992, NDCG@100:0.1161, NDCG@200:0.1334
+2021-05-20 12:23:33.882 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [21/200]
+2021-05-20 12:23:37.516 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [22/200]
+2021-05-20 12:23:41.174 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [23/200]
+2021-05-20 12:23:44.813 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [24/200]
+2021-05-20 12:23:48.455 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [25/200]
+2021-05-20 12:23:52.100 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [26/200]
+2021-05-20 12:23:55.726 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [27/200]
+2021-05-20 12:23:59.351 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [28/200]
+2021-05-20 12:24:02.979 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [29/200]
+2021-05-20 12:24:06.571 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [30/200]
+2021-05-20 12:24:16.360 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:24:25.271 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1310, HR@50:0.2988, HR@100:0.4000, HR@200:0.5222
+2021-05-20 12:24:25.271 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0696, NDCG@50:0.1060, NDCG@100:0.1224, NDCG@200:0.1395
+2021-05-20 12:24:28.910 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [31/200]
+2021-05-20 12:24:32.531 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [32/200]
+2021-05-20 12:24:36.185 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [33/200]
+2021-05-20 12:24:39.805 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [34/200]
+2021-05-20 12:24:43.429 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [35/200]
+2021-05-20 12:24:47.046 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [36/200]
+2021-05-20 12:24:50.663 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [37/200]
+2021-05-20 12:24:54.285 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [38/200]
+2021-05-20 12:24:57.904 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [39/200]
+2021-05-20 12:25:01.534 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [40/200]
+2021-05-20 12:25:11.365 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:25:18.399 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1369, HR@50:0.3045, HR@100:0.4068, HR@200:0.5288
+2021-05-20 12:25:18.399 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0735, NDCG@50:0.1099, NDCG@100:0.1265, NDCG@200:0.1435
+2021-05-20 12:25:22.032 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [41/200]
+2021-05-20 12:25:25.670 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [42/200]
+2021-05-20 12:25:29.303 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [43/200]
+2021-05-20 12:25:32.935 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [44/200]
+2021-05-20 12:25:36.559 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [45/200]
+2021-05-20 12:25:40.189 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [46/200]
+2021-05-20 12:25:43.818 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [47/200]
+2021-05-20 12:25:47.443 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [48/200]
+2021-05-20 12:25:51.074 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [49/200]
+2021-05-20 12:25:54.738 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [50/200]
+2021-05-20 12:26:04.390 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:26:13.360 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1390, HR@50:0.3077, HR@100:0.4083, HR@200:0.5269
+2021-05-20 12:26:13.361 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0751, NDCG@50:0.1119, NDCG@100:0.1281, NDCG@200:0.1447
+2021-05-20 12:26:17.042 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [51/200]
+2021-05-20 12:26:20.710 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [52/200]
+2021-05-20 12:26:24.342 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [53/200]
+2021-05-20 12:26:27.987 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [54/200]
+2021-05-20 12:26:31.649 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [55/200]
+2021-05-20 12:26:35.287 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [56/200]
+2021-05-20 12:26:38.909 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [57/200]
+2021-05-20 12:26:42.524 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [58/200]
+2021-05-20 12:26:46.158 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [59/200]
+2021-05-20 12:26:49.776 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [60/200]
+2021-05-20 12:26:59.433 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:27:06.449 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1437, HR@50:0.3115, HR@100:0.4142, HR@200:0.5319
+2021-05-20 12:27:06.449 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0770, NDCG@50:0.1135, NDCG@100:0.1301, NDCG@200:0.1466
+2021-05-20 12:27:10.083 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [61/200]
+2021-05-20 12:27:13.702 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [62/200]
+2021-05-20 12:27:17.333 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [63/200]
+2021-05-20 12:27:20.945 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [64/200]
+2021-05-20 12:27:24.558 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [65/200]
+2021-05-20 12:27:28.172 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [66/200]
+2021-05-20 12:27:31.794 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [67/200]
+2021-05-20 12:27:35.425 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [68/200]
+2021-05-20 12:27:39.034 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [69/200]
+2021-05-20 12:27:42.662 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [70/200]
+2021-05-20 12:27:52.322 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:27:59.478 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1458, HR@50:0.3153, HR@100:0.4183, HR@200:0.5334
+2021-05-20 12:27:59.478 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0786, NDCG@50:0.1155, NDCG@100:0.1322, NDCG@200:0.1483
+2021-05-20 12:28:03.134 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [71/200]
+2021-05-20 12:28:06.789 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [72/200]
+2021-05-20 12:28:10.466 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [73/200]
+2021-05-20 12:28:14.126 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [74/200]
+2021-05-20 12:28:17.825 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [75/200]
+2021-05-20 12:28:21.475 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [76/200]
+2021-05-20 12:28:25.122 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [77/200]
+2021-05-20 12:28:28.731 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [78/200]
+2021-05-20 12:28:32.359 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [79/200]
+2021-05-20 12:28:36.006 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [80/200]
+2021-05-20 12:28:45.706 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:28:52.869 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1462, HR@50:0.3147, HR@100:0.4165, HR@200:0.5341
+2021-05-20 12:28:52.870 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0789, NDCG@50:0.1156, NDCG@100:0.1320, NDCG@200:0.1485
+2021-05-20 12:28:56.552 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [81/200]
+2021-05-20 12:29:00.230 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [82/200]
+2021-05-20 12:29:03.905 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [83/200]
+2021-05-20 12:29:07.523 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [84/200]
+2021-05-20 12:29:11.138 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [85/200]
+2021-05-20 12:29:14.774 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [86/200]
+2021-05-20 12:29:18.409 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [87/200]
+2021-05-20 12:29:22.113 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [88/200]
+2021-05-20 12:29:25.774 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [89/200]
+2021-05-20 12:29:29.417 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [90/200]
+2021-05-20 12:29:38.968 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:29:46.093 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1490, HR@50:0.3174, HR@100:0.4219, HR@200:0.5396
+2021-05-20 12:29:46.093 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0809, NDCG@50:0.1177, NDCG@100:0.1346, NDCG@200:0.1510
+2021-05-20 12:29:49.728 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [91/200]
+2021-05-20 12:29:53.357 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [92/200]
+2021-05-20 12:29:57.007 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [93/200]
+2021-05-20 12:30:00.669 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [94/200]
+2021-05-20 12:30:04.323 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [95/200]
+2021-05-20 12:30:08.020 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [96/200]
+2021-05-20 12:30:11.696 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [97/200]
+2021-05-20 12:30:15.358 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [98/200]
+2021-05-20 12:30:19.059 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [99/200]
+2021-05-20 12:30:22.669 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [100/200]
+2021-05-20 12:30:32.965 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:30:40.055 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1491, HR@50:0.3197, HR@100:0.4230, HR@200:0.5402
+2021-05-20 12:30:40.055 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0801, NDCG@50:0.1172, NDCG@100:0.1339, NDCG@200:0.1503
+2021-05-20 12:30:43.696 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [101/200]
+2021-05-20 12:30:47.360 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [102/200]
+2021-05-20 12:30:51.038 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [103/200]
+2021-05-20 12:30:54.664 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [104/200]
+2021-05-20 12:30:58.316 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [105/200]
+2021-05-20 12:31:01.952 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [106/200]
+2021-05-20 12:31:05.590 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [107/200]
+2021-05-20 12:31:09.214 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [108/200]
+2021-05-20 12:31:12.816 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [109/200]
+2021-05-20 12:31:16.433 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [110/200]
+2021-05-20 12:31:25.864 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:31:33.161 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1520, HR@50:0.3213, HR@100:0.4252, HR@200:0.5404
+2021-05-20 12:31:33.161 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0815, NDCG@50:0.1183, NDCG@100:0.1351, NDCG@200:0.1513
+2021-05-20 12:31:36.788 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [111/200]
+2021-05-20 12:31:40.393 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [112/200]
+2021-05-20 12:31:44.003 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [113/200]
+2021-05-20 12:31:47.621 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [114/200]
+2021-05-20 12:31:51.277 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [115/200]
+2021-05-20 12:31:54.946 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [116/200]
+2021-05-20 12:31:58.557 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [117/200]
+2021-05-20 12:32:02.209 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [118/200]
+2021-05-20 12:32:05.860 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [119/200]
+2021-05-20 12:32:09.499 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [120/200]
+2021-05-20 12:32:20.423 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:32:27.741 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1503, HR@50:0.3211, HR@100:0.4236, HR@200:0.5376
+2021-05-20 12:32:27.741 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0810, NDCG@50:0.1183, NDCG@100:0.1349, NDCG@200:0.1508
+2021-05-20 12:32:31.382 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [121/200]
+2021-05-20 12:32:35.079 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [122/200]
+2021-05-20 12:32:38.713 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [123/200]
+2021-05-20 12:32:42.341 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [124/200]
+2021-05-20 12:32:45.950 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [125/200]
+2021-05-20 12:32:49.578 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [126/200]
+2021-05-20 12:32:53.204 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [127/200]
+2021-05-20 12:32:56.817 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [128/200]
+2021-05-20 12:33:00.453 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [129/200]
+2021-05-20 12:33:04.095 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [130/200]
+2021-05-20 12:33:13.513 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:33:20.917 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1508, HR@50:0.3222, HR@100:0.4265, HR@200:0.5396
+2021-05-20 12:33:20.917 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0815, NDCG@50:0.1189, NDCG@100:0.1358, NDCG@200:0.1516
+2021-05-20 12:33:24.590 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [131/200]
+2021-05-20 12:33:28.233 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [132/200]
+2021-05-20 12:33:31.852 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [133/200]
+2021-05-20 12:33:35.488 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [134/200]
+2021-05-20 12:33:39.118 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [135/200]
+2021-05-20 12:33:42.756 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [136/200]
+2021-05-20 12:33:46.412 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [137/200]
+2021-05-20 12:33:50.093 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [138/200]
+2021-05-20 12:33:53.745 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [139/200]
+2021-05-20 12:33:57.372 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [140/200]
+2021-05-20 12:34:06.710 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:34:15.897 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1525, HR@50:0.3217, HR@100:0.4266, HR@200:0.5419
+2021-05-20 12:34:15.898 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0818, NDCG@50:0.1187, NDCG@100:0.1357, NDCG@200:0.1519
+2021-05-20 12:34:19.526 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [141/200]
+2021-05-20 12:34:23.148 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [142/200]
+2021-05-20 12:34:26.760 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [143/200]
+2021-05-20 12:34:30.376 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [144/200]
+2021-05-20 12:34:33.980 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [145/200]
+2021-05-20 12:34:37.628 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [146/200]
+2021-05-20 12:34:41.267 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [147/200]
+2021-05-20 12:34:44.903 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [148/200]
+2021-05-20 12:34:48.556 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [149/200]
+2021-05-20 12:34:52.190 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [150/200]
+2021-05-20 12:35:01.547 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:35:08.955 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1527, HR@50:0.3217, HR@100:0.4237, HR@200:0.5382
+2021-05-20 12:35:08.956 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0828, NDCG@50:0.1197, NDCG@100:0.1362, NDCG@200:0.1523
+2021-05-20 12:35:12.620 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [151/200]
+2021-05-20 12:35:16.267 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [152/200]
+2021-05-20 12:35:19.905 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [153/200]
+2021-05-20 12:35:23.542 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [154/200]
+2021-05-20 12:35:27.177 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [155/200]
+2021-05-20 12:35:30.832 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [156/200]
+2021-05-20 12:35:34.500 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [157/200]
+2021-05-20 12:35:38.139 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [158/200]
+2021-05-20 12:35:41.764 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [159/200]
+2021-05-20 12:35:45.380 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [160/200]
+2021-05-20 12:35:54.749 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:36:04.038 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1521, HR@50:0.3229, HR@100:0.4267, HR@200:0.5432
+2021-05-20 12:36:04.038 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0819, NDCG@50:0.1192, NDCG@100:0.1360, NDCG@200:0.1522
+2021-05-20 12:36:07.671 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [161/200]
+2021-05-20 12:36:11.302 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [162/200]
+2021-05-20 12:36:14.922 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [163/200]
+2021-05-20 12:36:18.554 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [164/200]
+2021-05-20 12:36:22.205 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [165/200]
+2021-05-20 12:36:25.877 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [166/200]
+2021-05-20 12:36:29.536 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [167/200]
+2021-05-20 12:36:33.249 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [168/200]
+2021-05-20 12:36:36.917 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [169/200]
+2021-05-20 12:36:40.600 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [170/200]
+2021-05-20 12:36:50.006 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:36:57.541 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1546, HR@50:0.3258, HR@100:0.4311, HR@200:0.5465
+2021-05-20 12:36:57.541 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0832, NDCG@50:0.1205, NDCG@100:0.1376, NDCG@200:0.1537
+2021-05-20 12:37:01.221 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [171/200]
+2021-05-20 12:37:04.903 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [172/200]
+2021-05-20 12:37:08.588 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [173/200]
+2021-05-20 12:37:12.259 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [174/200]
+2021-05-20 12:37:15.911 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [175/200]
+2021-05-20 12:37:19.537 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [176/200]
+2021-05-20 12:37:23.181 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [177/200]
+2021-05-20 12:37:26.813 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [178/200]
+2021-05-20 12:37:30.449 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [179/200]
+2021-05-20 12:37:34.080 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [180/200]
+2021-05-20 12:37:43.359 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:37:52.741 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1537, HR@50:0.3245, HR@100:0.4287, HR@200:0.5436
+2021-05-20 12:37:52.741 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0836, NDCG@50:0.1209, NDCG@100:0.1378, NDCG@200:0.1538
+2021-05-20 12:37:56.391 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [181/200]
+2021-05-20 12:38:00.053 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [182/200]
+2021-05-20 12:38:03.701 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [183/200]
+2021-05-20 12:38:07.351 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [184/200]
+2021-05-20 12:38:10.979 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [185/200]
+2021-05-20 12:38:14.595 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [186/200]
+2021-05-20 12:38:18.235 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [187/200]
+2021-05-20 12:38:21.887 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [188/200]
+2021-05-20 12:38:25.523 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [189/200]
+2021-05-20 12:38:29.134 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [190/200]
+2021-05-20 12:38:38.544 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:38:46.050 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1553, HR@50:0.3286, HR@100:0.4318, HR@200:0.5461
+2021-05-20 12:38:46.051 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0837, NDCG@50:0.1215, NDCG@100:0.1382, NDCG@200:0.1542
+2021-05-20 12:38:49.693 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [191/200]
+2021-05-20 12:38:53.327 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [192/200]
+2021-05-20 12:38:56.946 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [193/200]
+2021-05-20 12:39:00.582 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [194/200]
+2021-05-20 12:39:04.215 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [195/200]
+2021-05-20 12:39:07.847 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [196/200]
+2021-05-20 12:39:11.464 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [197/200]
+2021-05-20 12:39:15.087 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [198/200]
+2021-05-20 12:39:18.691 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [199/200]
+2021-05-20 12:39:22.286 | INFO     | __main__:<module>:83 - Beibei EHCF Epoch [200/200]
+2021-05-20 12:39:31.563 | INFO     | __main__:<module>:94 - Beibei EHCF Prediction Completed!
+2021-05-20 12:39:39.044 | INFO     | __main__:<module>:134 - Beibei EHCF HR@10:0.1566, HR@50:0.3258, HR@100:0.4314, HR@200:0.5461
+2021-05-20 12:39:39.045 | INFO     | __main__:<module>:135 - Beibei EHCF NDCG@10:0.0845, NDCG@50:0.1214, NDCG@100:0.1385, NDCG@200:0.1546

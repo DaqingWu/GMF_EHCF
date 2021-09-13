@@ -1,0 +1,9 @@
+2021-05-20 11:51:58.730 | INFO     | __main__:<module>:19 - Namespace(name='Taobao')
+2021-05-20 11:51:59.334 | INFO     | __main__:<module>:25 - Taobao Data Loaded Successfully!
+2021-05-20 11:51:59.355 | INFO     | __main__:<module>:32 - Taobao Number of Users: 48749
+2021-05-20 11:51:59.356 | INFO     | __main__:<module>:33 - Taobao Number of Items: 39493
+2021-05-20 11:52:14.063 | INFO     | __main__:<module>:43 - Taobao View Train Data Completed!
+2021-05-20 11:52:31.965 | INFO     | __main__:<module>:53 - Taobao Cart Train Data Completed!
+2021-05-20 11:52:45.758 | INFO     | __main__:<module>:57 - Taobao Buy Train Completed!
+2021-05-20 11:52:52.412 | INFO     | __main__:<module>:62 - Taobao Buy Test Completed!
+2021-05-20 11:58:36.839 | INFO     | __main__:<module>:82 - Taobao User-Item Interaction Adjacent Matrix Completed!

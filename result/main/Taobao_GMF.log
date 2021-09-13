@@ -1,0 +1,263 @@
+2021-05-20 13:01:17.235 | INFO     | __main__:<module>:46 - Namespace(batch_size=256, name='Taobao', dim_embedding=64, dropout=0.5, epochs=200, gpu=0, lambdas={'view': 0.16666666666666666, 'cart': 0.6666666666666666, 'buy': 0.16666666666666666}, lr=0.05, module='GMF', mu={'para': 0.0001, 'embed': 0.001}, seed=2021, weight_negative=0.01)
+2021-05-20 13:01:17.235 | INFO     | __main__:<module>:48 - Taobao GMF Running... ...
+2021-05-20 13:02:04.788 | INFO     | __main__:<module>:57 - Taobao GMF Data Loaded Successfully!
+2021-05-20 13:02:47.987 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [1/200]
+2021-05-20 13:03:27.992 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [2/200]
+2021-05-20 13:04:07.974 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [3/200]
+2021-05-20 13:04:47.919 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [4/200]
+2021-05-20 13:05:27.837 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [5/200]
+2021-05-20 13:06:07.838 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [6/200]
+2021-05-20 13:06:47.884 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [7/200]
+2021-05-20 13:07:27.821 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [8/200]
+2021-05-20 13:08:07.756 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [9/200]
+2021-05-20 13:08:47.677 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [10/200]
+2021-05-20 13:10:49.707 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 13:12:00.416 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0562, HR@50:0.1188, HR@100:0.1610, HR@200:0.2114
+2021-05-20 13:12:00.417 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0323, NDCG@50:0.0459, NDCG@100:0.0527, NDCG@200:0.0597
+2021-05-20 13:12:39.635 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [11/200]
+2021-05-20 13:13:18.876 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [12/200]
+2021-05-20 13:13:58.137 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [13/200]
+2021-05-20 13:14:37.394 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [14/200]
+2021-05-20 13:15:16.626 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [15/200]
+2021-05-20 13:15:55.918 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [16/200]
+2021-05-20 13:16:35.183 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [17/200]
+2021-05-20 13:17:14.400 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [18/200]
+2021-05-20 13:17:53.595 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [19/200]
+2021-05-20 13:18:32.827 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [20/200]
+2021-05-20 13:20:25.796 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 13:21:44.787 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0658, HR@50:0.1426, HR@100:0.1906, HR@200:0.2506
+2021-05-20 13:21:44.788 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0381, NDCG@50:0.0548, NDCG@100:0.0626, NDCG@200:0.0710
+2021-05-20 13:22:23.877 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [21/200]
+2021-05-20 13:23:02.998 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [22/200]
+2021-05-20 13:23:42.050 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [23/200]
+2021-05-20 13:24:21.126 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [24/200]
+2021-05-20 13:25:00.234 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [25/200]
+2021-05-20 13:25:39.354 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [26/200]
+2021-05-20 13:26:18.416 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [27/200]
+2021-05-20 13:26:57.415 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [28/200]
+2021-05-20 13:27:36.386 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [29/200]
+2021-05-20 13:28:15.325 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [30/200]
+2021-05-20 13:30:08.179 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 13:31:21.269 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0696, HR@50:0.1511, HR@100:0.2015, HR@200:0.2649
+2021-05-20 13:31:21.269 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0397, NDCG@50:0.0575, NDCG@100:0.0656, NDCG@200:0.0745
+2021-05-20 13:32:00.237 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [31/200]
+2021-05-20 13:32:39.347 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [32/200]
+2021-05-20 13:33:18.387 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [33/200]
+2021-05-20 13:33:57.429 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [34/200]
+2021-05-20 13:34:36.444 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [35/200]
+2021-05-20 13:35:15.474 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [36/200]
+2021-05-20 13:35:54.492 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [37/200]
+2021-05-20 13:36:33.477 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [38/200]
+2021-05-20 13:37:12.498 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [39/200]
+2021-05-20 13:37:51.506 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [40/200]
+2021-05-20 13:39:40.623 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 13:40:55.479 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0704, HR@50:0.1550, HR@100:0.2072, HR@200:0.2727
+2021-05-20 13:40:55.479 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0402, NDCG@50:0.0586, NDCG@100:0.0670, NDCG@200:0.0762
+2021-05-20 13:41:34.551 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [41/200]
+2021-05-20 13:42:13.577 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [42/200]
+2021-05-20 13:42:52.624 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [43/200]
+2021-05-20 13:43:31.648 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [44/200]
+2021-05-20 13:44:10.741 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [45/200]
+2021-05-20 13:44:49.871 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [46/200]
+2021-05-20 13:45:28.948 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [47/200]
+2021-05-20 13:46:08.203 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [48/200]
+2021-05-20 13:46:47.577 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [49/200]
+2021-05-20 13:47:26.860 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [50/200]
+2021-05-20 13:49:16.735 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 13:50:29.062 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0705, HR@50:0.1562, HR@100:0.2101, HR@200:0.2765
+2021-05-20 13:50:29.062 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0403, NDCG@50:0.0590, NDCG@100:0.0677, NDCG@200:0.0770
+2021-05-20 13:51:08.147 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [51/200]
+2021-05-20 13:51:47.161 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [52/200]
+2021-05-20 13:52:26.222 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [53/200]
+2021-05-20 13:53:05.279 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [54/200]
+2021-05-20 13:53:44.524 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [55/200]
+2021-05-20 13:54:23.585 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [56/200]
+2021-05-20 13:55:02.578 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [57/200]
+2021-05-20 13:55:41.576 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [58/200]
+2021-05-20 13:56:20.574 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [59/200]
+2021-05-20 13:56:59.727 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [60/200]
+2021-05-20 13:58:46.864 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 14:00:22.189 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0716, HR@50:0.1577, HR@100:0.2120, HR@200:0.2795
+2021-05-20 14:00:22.190 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0409, NDCG@50:0.0596, NDCG@100:0.0684, NDCG@200:0.0778
+2021-05-20 14:01:01.285 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [61/200]
+2021-05-20 14:01:40.290 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [62/200]
+2021-05-20 14:02:19.354 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [63/200]
+2021-05-20 14:02:58.435 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [64/200]
+2021-05-20 14:03:37.464 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [65/200]
+2021-05-20 14:04:16.502 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [66/200]
+2021-05-20 14:04:55.605 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [67/200]
+2021-05-20 14:05:34.691 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [68/200]
+2021-05-20 14:06:13.744 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [69/200]
+2021-05-20 14:06:52.770 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [70/200]
+2021-05-20 14:08:42.485 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 14:10:16.680 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0709, HR@50:0.1585, HR@100:0.2137, HR@200:0.2821
+2021-05-20 14:10:16.681 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0406, NDCG@50:0.0596, NDCG@100:0.0685, NDCG@200:0.0781
+2021-05-20 14:10:55.766 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [71/200]
+2021-05-20 14:11:34.858 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [72/200]
+2021-05-20 14:12:13.921 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [73/200]
+2021-05-20 14:12:52.951 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [74/200]
+2021-05-20 14:13:31.921 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [75/200]
+2021-05-20 14:14:10.918 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [76/200]
+2021-05-20 14:14:49.909 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [77/200]
+2021-05-20 14:15:28.919 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [78/200]
+2021-05-20 14:16:07.958 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [79/200]
+2021-05-20 14:16:46.990 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [80/200]
+2021-05-20 14:18:33.973 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 14:20:09.090 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0712, HR@50:0.1594, HR@100:0.2147, HR@200:0.2832
+2021-05-20 14:20:09.091 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0406, NDCG@50:0.0597, NDCG@100:0.0687, NDCG@200:0.0782
+2021-05-20 14:20:48.121 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [81/200]
+2021-05-20 14:21:27.274 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [82/200]
+2021-05-20 14:22:06.339 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [83/200]
+2021-05-20 14:22:45.341 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [84/200]
+2021-05-20 14:23:24.401 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [85/200]
+2021-05-20 14:24:03.415 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [86/200]
+2021-05-20 14:24:42.620 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [87/200]
+2021-05-20 14:25:21.745 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [88/200]
+2021-05-20 14:26:00.855 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [89/200]
+2021-05-20 14:26:39.926 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [90/200]
+2021-05-20 14:28:28.790 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 14:30:00.807 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0717, HR@50:0.1589, HR@100:0.2149, HR@200:0.2834
+2021-05-20 14:30:00.808 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0407, NDCG@50:0.0596, NDCG@100:0.0687, NDCG@200:0.0783
+2021-05-20 14:30:39.905 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [91/200]
+2021-05-20 14:31:19.032 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [92/200]
+2021-05-20 14:31:58.161 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [93/200]
+2021-05-20 14:32:37.272 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [94/200]
+2021-05-20 14:33:16.292 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [95/200]
+2021-05-20 14:33:55.333 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [96/200]
+2021-05-20 14:34:34.309 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [97/200]
+2021-05-20 14:35:13.296 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [98/200]
+2021-05-20 14:35:52.388 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [99/200]
+2021-05-20 14:36:31.568 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [100/200]
+2021-05-20 14:38:17.992 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 14:39:52.582 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0713, HR@50:0.1595, HR@100:0.2163, HR@200:0.2848
+2021-05-20 14:39:52.582 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0405, NDCG@50:0.0597, NDCG@100:0.0689, NDCG@200:0.0784
+2021-05-20 14:40:31.659 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [101/200]
+2021-05-20 14:41:10.736 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [102/200]
+2021-05-20 14:41:49.887 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [103/200]
+2021-05-20 14:42:29.000 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [104/200]
+2021-05-20 14:43:08.146 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [105/200]
+2021-05-20 14:43:47.292 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [106/200]
+2021-05-20 14:44:26.539 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [107/200]
+2021-05-20 14:45:05.668 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [108/200]
+2021-05-20 14:45:44.798 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [109/200]
+2021-05-20 14:46:23.948 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [110/200]
+2021-05-20 14:48:13.625 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 14:49:47.871 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0710, HR@50:0.1590, HR@100:0.2165, HR@200:0.2860
+2021-05-20 14:49:47.871 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0403, NDCG@50:0.0594, NDCG@100:0.0688, NDCG@200:0.0785
+2021-05-20 14:50:27.028 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [111/200]
+2021-05-20 14:51:06.186 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [112/200]
+2021-05-20 14:51:45.316 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [113/200]
+2021-05-20 14:52:24.330 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [114/200]
+2021-05-20 14:53:03.343 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [115/200]
+2021-05-20 14:53:42.389 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [116/200]
+2021-05-20 14:54:21.451 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [117/200]
+2021-05-20 14:55:00.521 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [118/200]
+2021-05-20 14:55:39.577 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [119/200]
+2021-05-20 14:56:18.620 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [120/200]
+2021-05-20 14:58:05.367 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 14:59:39.697 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0717, HR@50:0.1600, HR@100:0.2168, HR@200:0.2869
+2021-05-20 14:59:39.698 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0406, NDCG@50:0.0597, NDCG@100:0.0689, NDCG@200:0.0787
+2021-05-20 15:00:18.724 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [121/200]
+2021-05-20 15:00:57.758 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [122/200]
+2021-05-20 15:01:36.970 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [123/200]
+2021-05-20 15:02:16.321 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [124/200]
+2021-05-20 15:02:55.487 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [125/200]
+2021-05-20 15:03:34.719 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [126/200]
+2021-05-20 15:04:13.891 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [127/200]
+2021-05-20 15:04:53.199 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [128/200]
+2021-05-20 15:05:32.428 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [129/200]
+2021-05-20 15:06:11.570 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [130/200]
+2021-05-20 15:08:00.720 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 15:09:33.396 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0716, HR@50:0.1595, HR@100:0.2178, HR@200:0.2864
+2021-05-20 15:09:33.397 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0405, NDCG@50:0.0596, NDCG@100:0.0690, NDCG@200:0.0786
+2021-05-20 15:10:12.636 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [131/200]
+2021-05-20 15:10:51.734 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [132/200]
+2021-05-20 15:11:30.964 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [133/200]
+2021-05-20 15:12:10.153 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [134/200]
+2021-05-20 15:12:49.196 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [135/200]
+2021-05-20 15:13:28.252 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [136/200]
+2021-05-20 15:14:07.288 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [137/200]
+2021-05-20 15:14:46.278 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [138/200]
+2021-05-20 15:15:25.310 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [139/200]
+2021-05-20 15:16:04.402 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [140/200]
+2021-05-20 15:17:52.695 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 15:19:27.768 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0716, HR@50:0.1597, HR@100:0.2175, HR@200:0.2865
+2021-05-20 15:19:27.768 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0407, NDCG@50:0.0598, NDCG@100:0.0691, NDCG@200:0.0788
+2021-05-20 15:20:06.850 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [141/200]
+2021-05-20 15:20:45.795 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [142/200]
+2021-05-20 15:21:24.713 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [143/200]
+2021-05-20 15:22:03.640 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [144/200]
+2021-05-20 15:22:42.580 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [145/200]
+2021-05-20 15:23:21.613 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [146/200]
+2021-05-20 15:24:00.769 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [147/200]
+2021-05-20 15:24:39.924 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [148/200]
+2021-05-20 15:25:19.002 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [149/200]
+2021-05-20 15:25:58.031 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [150/200]
+2021-05-20 15:27:46.584 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 15:29:18.642 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0710, HR@50:0.1594, HR@100:0.2175, HR@200:0.2871
+2021-05-20 15:29:18.643 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0403, NDCG@50:0.0595, NDCG@100:0.0689, NDCG@200:0.0786
+2021-05-20 15:29:57.926 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [151/200]
+2021-05-20 15:30:37.100 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [152/200]
+2021-05-20 15:31:16.381 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [153/200]
+2021-05-20 15:31:55.539 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [154/200]
+2021-05-20 15:32:34.677 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [155/200]
+2021-05-20 15:33:13.819 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [156/200]
+2021-05-20 15:33:52.940 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [157/200]
+2021-05-20 15:34:32.002 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [158/200]
+2021-05-20 15:35:11.270 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [159/200]
+2021-05-20 15:35:50.539 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [160/200]
+2021-05-20 15:37:38.364 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 15:39:27.364 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0714, HR@50:0.1594, HR@100:0.2176, HR@200:0.2869
+2021-05-20 15:39:27.365 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0404, NDCG@50:0.0595, NDCG@100:0.0689, NDCG@200:0.0786
+2021-05-20 15:40:06.719 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [161/200]
+2021-05-20 15:40:46.000 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [162/200]
+2021-05-20 15:41:25.063 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [163/200]
+2021-05-20 15:42:04.130 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [164/200]
+2021-05-20 15:42:43.223 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [165/200]
+2021-05-20 15:43:22.327 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [166/200]
+2021-05-20 15:44:01.450 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [167/200]
+2021-05-20 15:44:40.588 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [168/200]
+2021-05-20 15:45:19.628 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [169/200]
+2021-05-20 15:45:58.706 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [170/200]
+2021-05-20 15:48:07.674 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 15:49:21.467 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0714, HR@50:0.1595, HR@100:0.2178, HR@200:0.2878
+2021-05-20 15:49:21.467 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0404, NDCG@50:0.0595, NDCG@100:0.0689, NDCG@200:0.0787
+2021-05-20 15:50:00.860 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [171/200]
+2021-05-20 15:50:39.968 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [172/200]
+2021-05-20 15:51:19.037 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [173/200]
+2021-05-20 15:51:58.093 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [174/200]
+2021-05-20 15:52:37.359 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [175/200]
+2021-05-20 15:53:16.732 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [176/200]
+2021-05-20 15:53:55.884 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [177/200]
+2021-05-20 15:54:34.964 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [178/200]
+2021-05-20 15:55:14.009 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [179/200]
+2021-05-20 15:55:53.171 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [180/200]
+2021-05-20 15:57:57.648 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 15:59:12.687 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0714, HR@50:0.1592, HR@100:0.2187, HR@200:0.2880
+2021-05-20 15:59:12.688 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0404, NDCG@50:0.0595, NDCG@100:0.0691, NDCG@200:0.0787
+2021-05-20 15:59:51.917 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [181/200]
+2021-05-20 16:00:31.089 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [182/200]
+2021-05-20 16:01:10.226 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [183/200]
+2021-05-20 16:01:49.469 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [184/200]
+2021-05-20 16:02:28.575 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [185/200]
+2021-05-20 16:03:07.560 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [186/200]
+2021-05-20 16:03:46.694 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [187/200]
+2021-05-20 16:04:25.865 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [188/200]
+2021-05-20 16:05:04.944 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [189/200]
+2021-05-20 16:05:44.320 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [190/200]
+2021-05-20 16:07:48.090 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 16:09:00.287 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0714, HR@50:0.1596, HR@100:0.2182, HR@200:0.2880
+2021-05-20 16:09:00.287 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0404, NDCG@50:0.0595, NDCG@100:0.0690, NDCG@200:0.0788
+2021-05-20 16:09:39.412 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [191/200]
+2021-05-20 16:10:18.692 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [192/200]
+2021-05-20 16:10:57.759 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [193/200]
+2021-05-20 16:11:36.843 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [194/200]
+2021-05-20 16:12:16.127 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [195/200]
+2021-05-20 16:12:55.299 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [196/200]
+2021-05-20 16:13:34.415 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [197/200]
+2021-05-20 16:14:13.792 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [198/200]
+2021-05-20 16:14:52.998 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [199/200]
+2021-05-20 16:15:32.193 | INFO     | __main__:<module>:83 - Taobao GMF Epoch [200/200]
+2021-05-20 16:17:35.536 | INFO     | __main__:<module>:94 - Taobao GMF Prediction Completed!
+2021-05-20 16:18:51.359 | INFO     | __main__:<module>:134 - Taobao GMF HR@10:0.0715, HR@50:0.1592, HR@100:0.2182, HR@200:0.2881
+2021-05-20 16:18:51.360 | INFO     | __main__:<module>:135 - Taobao GMF NDCG@10:0.0404, NDCG@50:0.0595, NDCG@100:0.0690, NDCG@200:0.0788

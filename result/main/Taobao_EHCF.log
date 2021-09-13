@@ -1,0 +1,263 @@
+2021-05-20 16:32:30.001 | INFO     | __main__:<module>:46 - Namespace(batch_size=256, name='Taobao', dim_embedding=64, dropout=0.5, epochs=200, gpu=0, lambdas={'view': 0.16666666666666666, 'cart': 0.6666666666666666, 'buy': 0.16666666666666666}, lr=0.05, module='EHCF', mu={'para': 0.0001, 'embed': 0.001}, seed=2021, weight_negative=0.01)
+2021-05-20 16:32:30.002 | INFO     | __main__:<module>:48 - Taobao EHCF Running... ...
+2021-05-20 16:33:15.791 | INFO     | __main__:<module>:57 - Taobao EHCF Data Loaded Successfully!
+2021-05-20 16:33:59.044 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [1/200]
+2021-05-20 16:34:39.086 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [2/200]
+2021-05-20 16:35:19.098 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [3/200]
+2021-05-20 16:35:59.017 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [4/200]
+2021-05-20 16:36:39.002 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [5/200]
+2021-05-20 16:37:19.016 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [6/200]
+2021-05-20 16:37:58.960 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [7/200]
+2021-05-20 16:38:38.916 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [8/200]
+2021-05-20 16:39:19.098 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [9/200]
+2021-05-20 16:39:59.174 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [10/200]
+2021-05-20 16:42:04.848 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 16:43:17.617 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0500, HR@50:0.0993, HR@100:0.1329, HR@200:0.1761
+2021-05-20 16:43:17.617 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0302, NDCG@50:0.0410, NDCG@100:0.0464, NDCG@200:0.0524
+2021-05-20 16:43:56.839 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [11/200]
+2021-05-20 16:44:36.178 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [12/200]
+2021-05-20 16:45:15.633 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [13/200]
+2021-05-20 16:45:55.038 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [14/200]
+2021-05-20 16:46:34.496 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [15/200]
+2021-05-20 16:47:13.819 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [16/200]
+2021-05-20 16:47:52.990 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [17/200]
+2021-05-20 16:48:32.203 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [18/200]
+2021-05-20 16:49:11.500 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [19/200]
+2021-05-20 16:49:50.763 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [20/200]
+2021-05-20 16:51:47.008 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 16:53:00.413 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0683, HR@50:0.1361, HR@100:0.1800, HR@200:0.2318
+2021-05-20 16:53:00.414 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0411, NDCG@50:0.0558, NDCG@100:0.0629, NDCG@200:0.0701
+2021-05-20 16:53:39.756 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [21/200]
+2021-05-20 16:54:18.839 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [22/200]
+2021-05-20 16:54:58.136 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [23/200]
+2021-05-20 16:55:37.275 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [24/200]
+2021-05-20 16:56:16.546 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [25/200]
+2021-05-20 16:56:55.598 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [26/200]
+2021-05-20 16:57:34.713 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [27/200]
+2021-05-20 16:58:14.029 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [28/200]
+2021-05-20 16:58:53.204 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [29/200]
+2021-05-20 16:59:33.661 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [30/200]
+2021-05-20 17:01:44.226 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 17:03:46.748 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0760, HR@50:0.1534, HR@100:0.1995, HR@200:0.2578
+2021-05-20 17:03:46.748 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0451, NDCG@50:0.0619, NDCG@100:0.0694, NDCG@200:0.0775
+2021-05-20 17:04:26.837 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [31/200]
+2021-05-20 17:05:07.569 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [32/200]
+2021-05-20 17:05:48.291 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [33/200]
+2021-05-20 17:06:27.359 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [34/200]
+2021-05-20 17:07:07.884 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [35/200]
+2021-05-20 17:07:49.244 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [36/200]
+2021-05-20 17:08:28.316 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [37/200]
+2021-05-20 17:09:07.466 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [38/200]
+2021-05-20 17:09:46.595 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [39/200]
+2021-05-20 17:10:27.065 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [40/200]
+2021-05-20 17:12:27.007 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 17:15:03.588 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0775, HR@50:0.1587, HR@100:0.2086, HR@200:0.2684
+2021-05-20 17:15:03.588 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0457, NDCG@50:0.0634, NDCG@100:0.0715, NDCG@200:0.0798
+2021-05-20 17:15:43.844 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [41/200]
+2021-05-20 17:16:25.320 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [42/200]
+2021-05-20 17:17:04.963 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [43/200]
+2021-05-20 17:17:44.054 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [44/200]
+2021-05-20 17:18:23.230 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [45/200]
+2021-05-20 17:19:02.369 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [46/200]
+2021-05-20 17:19:41.491 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [47/200]
+2021-05-20 17:20:20.528 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [48/200]
+2021-05-20 17:21:01.168 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [49/200]
+2021-05-20 17:21:42.845 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [50/200]
+2021-05-20 17:23:35.560 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 17:26:11.957 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0783, HR@50:0.1625, HR@100:0.2120, HR@200:0.2749
+2021-05-20 17:26:11.958 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0455, NDCG@50:0.0637, NDCG@100:0.0717, NDCG@200:0.0805
+2021-05-20 17:26:51.010 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [51/200]
+2021-05-20 17:27:30.023 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [52/200]
+2021-05-20 17:28:09.070 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [53/200]
+2021-05-20 17:28:48.171 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [54/200]
+2021-05-20 17:29:27.310 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [55/200]
+2021-05-20 17:30:06.290 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [56/200]
+2021-05-20 17:30:45.405 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [57/200]
+2021-05-20 17:31:24.496 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [58/200]
+2021-05-20 17:32:03.512 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [59/200]
+2021-05-20 17:32:42.636 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [60/200]
+2021-05-20 17:34:32.030 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 17:37:32.633 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0789, HR@50:0.1634, HR@100:0.2159, HR@200:0.2797
+2021-05-20 17:37:32.634 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0456, NDCG@50:0.0640, NDCG@100:0.0725, NDCG@200:0.0814
+2021-05-20 17:38:11.837 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [61/200]
+2021-05-20 17:38:51.027 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [62/200]
+2021-05-20 17:39:30.171 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [63/200]
+2021-05-20 17:40:09.399 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [64/200]
+2021-05-20 17:40:48.548 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [65/200]
+2021-05-20 17:41:27.667 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [66/200]
+2021-05-20 17:42:06.755 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [67/200]
+2021-05-20 17:42:45.868 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [68/200]
+2021-05-20 17:43:25.011 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [69/200]
+2021-05-20 17:44:04.161 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [70/200]
+2021-05-20 17:45:54.894 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 17:48:51.425 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0781, HR@50:0.1641, HR@100:0.2177, HR@200:0.2823
+2021-05-20 17:48:51.425 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0450, NDCG@50:0.0637, NDCG@100:0.0724, NDCG@200:0.0814
+2021-05-20 17:49:30.552 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [71/200]
+2021-05-20 17:50:09.648 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [72/200]
+2021-05-20 17:50:48.792 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [73/200]
+2021-05-20 17:51:27.936 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [74/200]
+2021-05-20 17:52:07.067 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [75/200]
+2021-05-20 17:52:46.158 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [76/200]
+2021-05-20 17:53:25.196 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [77/200]
+2021-05-20 17:54:04.276 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [78/200]
+2021-05-20 17:54:43.394 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [79/200]
+2021-05-20 17:55:22.559 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [80/200]
+2021-05-20 17:57:12.940 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 17:58:47.090 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0780, HR@50:0.1646, HR@100:0.2198, HR@200:0.2842
+2021-05-20 17:58:47.091 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0444, NDCG@50:0.0631, NDCG@100:0.0720, NDCG@200:0.0810
+2021-05-20 17:59:26.222 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [81/200]
+2021-05-20 18:00:05.248 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [82/200]
+2021-05-20 18:00:44.283 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [83/200]
+2021-05-20 18:01:23.381 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [84/200]
+2021-05-20 18:02:02.564 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [85/200]
+2021-05-20 18:02:41.684 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [86/200]
+2021-05-20 18:03:20.782 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [87/200]
+2021-05-20 18:03:59.879 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [88/200]
+2021-05-20 18:04:38.980 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [89/200]
+2021-05-20 18:05:18.056 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [90/200]
+2021-05-20 18:07:08.837 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 18:08:40.762 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0773, HR@50:0.1658, HR@100:0.2200, HR@200:0.2857
+2021-05-20 18:08:40.762 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0442, NDCG@50:0.0633, NDCG@100:0.0721, NDCG@200:0.0813
+2021-05-20 18:09:19.885 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [91/200]
+2021-05-20 18:09:58.983 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [92/200]
+2021-05-20 18:10:38.025 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [93/200]
+2021-05-20 18:11:17.097 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [94/200]
+2021-05-20 18:11:56.228 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [95/200]
+2021-05-20 18:12:35.337 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [96/200]
+2021-05-20 18:13:14.452 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [97/200]
+2021-05-20 18:13:53.551 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [98/200]
+2021-05-20 18:14:32.596 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [99/200]
+2021-05-20 18:15:11.657 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [100/200]
+2021-05-20 18:17:00.687 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 18:18:33.848 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0765, HR@50:0.1642, HR@100:0.2192, HR@200:0.2854
+2021-05-20 18:18:33.849 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0434, NDCG@50:0.0624, NDCG@100:0.0713, NDCG@200:0.0805
+2021-05-20 18:19:12.911 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [101/200]
+2021-05-20 18:19:52.041 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [102/200]
+2021-05-20 18:20:31.104 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [103/200]
+2021-05-20 18:21:10.173 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [104/200]
+2021-05-20 18:21:49.306 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [105/200]
+2021-05-20 18:22:28.400 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [106/200]
+2021-05-20 18:23:07.436 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [107/200]
+2021-05-20 18:23:46.480 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [108/200]
+2021-05-20 18:24:25.579 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [109/200]
+2021-05-20 18:25:04.650 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [110/200]
+2021-05-20 18:26:55.337 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 18:28:26.282 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0768, HR@50:0.1657, HR@100:0.2217, HR@200:0.2889
+2021-05-20 18:28:26.283 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0435, NDCG@50:0.0627, NDCG@100:0.0718, NDCG@200:0.0812
+2021-05-20 18:29:05.526 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [111/200]
+2021-05-20 18:29:44.603 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [112/200]
+2021-05-20 18:30:23.678 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [113/200]
+2021-05-20 18:31:02.861 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [114/200]
+2021-05-20 18:31:41.948 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [115/200]
+2021-05-20 18:32:21.073 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [116/200]
+2021-05-20 18:33:00.145 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [117/200]
+2021-05-20 18:33:39.178 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [118/200]
+2021-05-20 18:34:18.241 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [119/200]
+2021-05-20 18:34:57.353 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [120/200]
+2021-05-20 18:36:48.052 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 18:38:20.975 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0764, HR@50:0.1657, HR@100:0.2209, HR@200:0.2886
+2021-05-20 18:38:20.975 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0431, NDCG@50:0.0625, NDCG@100:0.0714, NDCG@200:0.0808
+2021-05-20 18:39:00.023 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [121/200]
+2021-05-20 18:39:39.079 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [122/200]
+2021-05-20 18:40:18.146 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [123/200]
+2021-05-20 18:40:57.214 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [124/200]
+2021-05-20 18:41:36.330 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [125/200]
+2021-05-20 18:42:15.528 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [126/200]
+2021-05-20 18:42:54.711 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [127/200]
+2021-05-20 18:43:33.867 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [128/200]
+2021-05-20 18:44:13.023 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [129/200]
+2021-05-20 18:44:52.052 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [130/200]
+2021-05-20 18:46:43.430 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 18:48:15.359 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0755, HR@50:0.1652, HR@100:0.2209, HR@200:0.2893
+2021-05-20 18:48:15.360 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0427, NDCG@50:0.0621, NDCG@100:0.0711, NDCG@200:0.0807
+2021-05-20 18:48:54.470 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [131/200]
+2021-05-20 18:49:33.633 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [132/200]
+2021-05-20 18:50:12.691 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [133/200]
+2021-05-20 18:50:51.703 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [134/200]
+2021-05-20 18:51:30.709 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [135/200]
+2021-05-20 18:52:09.719 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [136/200]
+2021-05-20 18:52:48.708 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [137/200]
+2021-05-20 18:53:27.785 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [138/200]
+2021-05-20 18:54:06.795 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [139/200]
+2021-05-20 18:54:45.881 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [140/200]
+2021-05-20 18:56:34.961 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 18:58:08.069 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0758, HR@50:0.1658, HR@100:0.2220, HR@200:0.2906
+2021-05-20 18:58:08.069 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0429, NDCG@50:0.0624, NDCG@100:0.0715, NDCG@200:0.0810
+2021-05-20 18:58:47.185 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [141/200]
+2021-05-20 18:59:26.411 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [142/200]
+2021-05-20 19:00:05.533 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [143/200]
+2021-05-20 19:00:44.693 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [144/200]
+2021-05-20 19:01:23.778 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [145/200]
+2021-05-20 19:02:02.772 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [146/200]
+2021-05-20 19:02:41.857 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [147/200]
+2021-05-20 19:03:20.946 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [148/200]
+2021-05-20 19:03:59.968 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [149/200]
+2021-05-20 19:04:39.030 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [150/200]
+2021-05-20 19:06:30.681 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 19:08:02.404 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0755, HR@50:0.1656, HR@100:0.2215, HR@200:0.2900
+2021-05-20 19:08:02.404 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0426, NDCG@50:0.0621, NDCG@100:0.0712, NDCG@200:0.0807
+2021-05-20 19:08:41.479 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [151/200]
+2021-05-20 19:09:20.610 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [152/200]
+2021-05-20 19:09:59.763 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [153/200]
+2021-05-20 19:10:38.914 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [154/200]
+2021-05-20 19:11:17.977 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [155/200]
+2021-05-20 19:11:56.965 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [156/200]
+2021-05-20 19:12:35.986 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [157/200]
+2021-05-20 19:13:14.991 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [158/200]
+2021-05-20 19:13:54.032 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [159/200]
+2021-05-20 19:14:33.201 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [160/200]
+2021-05-20 19:16:22.765 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 19:17:55.765 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0755, HR@50:0.1659, HR@100:0.2221, HR@200:0.2914
+2021-05-20 19:17:55.765 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0426, NDCG@50:0.0622, NDCG@100:0.0713, NDCG@200:0.0810
+2021-05-20 19:18:34.853 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [161/200]
+2021-05-20 19:19:13.953 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [162/200]
+2021-05-20 19:19:53.005 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [163/200]
+2021-05-20 19:20:32.082 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [164/200]
+2021-05-20 19:21:11.196 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [165/200]
+2021-05-20 19:21:50.328 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [166/200]
+2021-05-20 19:22:29.441 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [167/200]
+2021-05-20 19:23:08.497 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [168/200]
+2021-05-20 19:23:47.500 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [169/200]
+2021-05-20 19:24:26.496 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [170/200]
+2021-05-20 19:26:36.103 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 19:27:47.849 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0748, HR@50:0.1656, HR@100:0.2218, HR@200:0.2919
+2021-05-20 19:27:47.850 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0422, NDCG@50:0.0618, NDCG@100:0.0709, NDCG@200:0.0807
+2021-05-20 19:28:26.855 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [171/200]
+2021-05-20 19:29:05.890 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [172/200]
+2021-05-20 19:29:45.051 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [173/200]
+2021-05-20 19:30:24.183 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [174/200]
+2021-05-20 19:31:03.308 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [175/200]
+2021-05-20 19:31:42.369 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [176/200]
+2021-05-20 19:32:21.507 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [177/200]
+2021-05-20 19:33:00.600 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [178/200]
+2021-05-20 19:33:39.593 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [179/200]
+2021-05-20 19:34:18.592 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [180/200]
+2021-05-20 19:36:27.580 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 19:37:42.849 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0745, HR@50:0.1658, HR@100:0.2222, HR@200:0.2923
+2021-05-20 19:37:42.850 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0419, NDCG@50:0.0616, NDCG@100:0.0708, NDCG@200:0.0805
+2021-05-20 19:38:21.951 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [181/200]
+2021-05-20 19:39:01.162 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [182/200]
+2021-05-20 19:39:40.338 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [183/200]
+2021-05-20 19:40:19.434 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [184/200]
+2021-05-20 19:40:58.472 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [185/200]
+2021-05-20 19:41:37.594 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [186/200]
+2021-05-20 19:42:16.672 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [187/200]
+2021-05-20 19:42:55.762 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [188/200]
+2021-05-20 19:43:34.844 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [189/200]
+2021-05-20 19:44:13.907 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [190/200]
+2021-05-20 19:46:20.220 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 19:47:30.939 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0752, HR@50:0.1647, HR@100:0.2212, HR@200:0.2918
+2021-05-20 19:47:30.940 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0422, NDCG@50:0.0615, NDCG@100:0.0706, NDCG@200:0.0805
+2021-05-20 19:48:10.124 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [191/200]
+2021-05-20 19:48:49.432 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [192/200]
+2021-05-20 19:49:28.674 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [193/200]
+2021-05-20 19:50:07.798 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [194/200]
+2021-05-20 19:50:46.918 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [195/200]
+2021-05-20 19:51:26.060 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [196/200]
+2021-05-20 19:52:05.132 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [197/200]
+2021-05-20 19:52:44.155 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [198/200]
+2021-05-20 19:53:23.207 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [199/200]
+2021-05-20 19:54:02.379 | INFO     | __main__:<module>:85 - Taobao EHCF Epoch [200/200]
+2021-05-20 19:56:06.317 | INFO     | __main__:<module>:100 - Taobao EHCF Prediction Completed!
+2021-05-20 19:57:20.334 | INFO     | __main__:<module>:141 - Taobao EHCF HR@10:0.0749, HR@50:0.1654, HR@100:0.2217, HR@200:0.2932
+2021-05-20 19:57:20.335 | INFO     | __main__:<module>:142 - Taobao EHCF NDCG@10:0.0421, NDCG@50:0.0617, NDCG@100:0.0709, NDCG@200:0.0808

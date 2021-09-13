@@ -1,0 +1,263 @@
+2021-05-20 12:21:29.794 | INFO     | __main__:<module>:46 - Namespace(batch_size=512, name='Beibei', dim_embedding=64, dropout=0.5, epochs=200, gpu=0, lambdas={'view': 0.05, 'cart': 0.8, 'buy': 0.15}, lr=0.05, module='GMF', mu={'para': 0.0001, 'embed': 0.001}, seed=2021, weight_negative=0.1)
+2021-05-20 12:21:29.795 | INFO     | __main__:<module>:48 - Beibei GMF Running... ...
+2021-05-20 12:21:34.102 | INFO     | __main__:<module>:57 - Beibei GMF Data Loaded Successfully!
+2021-05-20 12:21:41.000 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [1/200]
+2021-05-20 12:21:44.630 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [2/200]
+2021-05-20 12:21:48.256 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [3/200]
+2021-05-20 12:21:51.888 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [4/200]
+2021-05-20 12:21:55.518 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [5/200]
+2021-05-20 12:21:59.156 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [6/200]
+2021-05-20 12:22:02.760 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [7/200]
+2021-05-20 12:22:06.362 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [8/200]
+2021-05-20 12:22:10.014 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [9/200]
+2021-05-20 12:22:13.648 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [10/200]
+2021-05-20 12:22:24.272 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:22:32.972 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.0858, HR@50:0.2395, HR@100:0.3510, HR@200:0.4829
+2021-05-20 12:22:32.973 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0456, NDCG@50:0.0786, NDCG@100:0.0967, NDCG@200:0.1151
+2021-05-20 12:22:36.608 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [11/200]
+2021-05-20 12:22:40.234 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [12/200]
+2021-05-20 12:22:43.870 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [13/200]
+2021-05-20 12:22:47.524 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [14/200]
+2021-05-20 12:22:51.153 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [15/200]
+2021-05-20 12:22:54.778 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [16/200]
+2021-05-20 12:22:58.425 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [17/200]
+2021-05-20 12:23:02.086 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [18/200]
+2021-05-20 12:23:05.756 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [19/200]
+2021-05-20 12:23:09.391 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [20/200]
+2021-05-20 12:23:19.419 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:23:26.407 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1111, HR@50:0.2764, HR@100:0.3853, HR@200:0.5122
+2021-05-20 12:23:26.408 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0602, NDCG@50:0.0957, NDCG@100:0.1133, NDCG@200:0.1311
+2021-05-20 12:23:30.134 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [21/200]
+2021-05-20 12:23:33.779 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [22/200]
+2021-05-20 12:23:37.418 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [23/200]
+2021-05-20 12:23:41.098 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [24/200]
+2021-05-20 12:23:44.745 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [25/200]
+2021-05-20 12:23:48.387 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [26/200]
+2021-05-20 12:23:52.030 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [27/200]
+2021-05-20 12:23:55.665 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [28/200]
+2021-05-20 12:23:59.299 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [29/200]
+2021-05-20 12:24:02.932 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [30/200]
+2021-05-20 12:24:12.797 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:24:21.713 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1236, HR@50:0.2931, HR@100:0.4008, HR@200:0.5228
+2021-05-20 12:24:21.714 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0668, NDCG@50:0.1035, NDCG@100:0.1209, NDCG@200:0.1380
+2021-05-20 12:24:25.304 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [31/200]
+2021-05-20 12:24:28.915 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [32/200]
+2021-05-20 12:24:32.535 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [33/200]
+2021-05-20 12:24:36.174 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [34/200]
+2021-05-20 12:24:39.788 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [35/200]
+2021-05-20 12:24:43.413 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [36/200]
+2021-05-20 12:24:47.030 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [37/200]
+2021-05-20 12:24:50.649 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [38/200]
+2021-05-20 12:24:54.269 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [39/200]
+2021-05-20 12:24:57.888 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [40/200]
+2021-05-20 12:25:07.726 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:25:14.674 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1318, HR@50:0.3029, HR@100:0.4102, HR@200:0.5293
+2021-05-20 12:25:14.675 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0714, NDCG@50:0.1085, NDCG@100:0.1259, NDCG@200:0.1426
+2021-05-20 12:25:18.314 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [41/200]
+2021-05-20 12:25:21.928 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [42/200]
+2021-05-20 12:25:25.571 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [43/200]
+2021-05-20 12:25:29.201 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [44/200]
+2021-05-20 12:25:32.839 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [45/200]
+2021-05-20 12:25:36.456 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [46/200]
+2021-05-20 12:25:40.085 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [47/200]
+2021-05-20 12:25:43.715 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [48/200]
+2021-05-20 12:25:47.332 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [49/200]
+2021-05-20 12:25:50.936 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [50/200]
+2021-05-20 12:26:00.746 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:26:09.808 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1375, HR@50:0.3107, HR@100:0.4149, HR@200:0.5336
+2021-05-20 12:26:09.808 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0747, NDCG@50:0.1122, NDCG@100:0.1291, NDCG@200:0.1457
+2021-05-20 12:26:13.478 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [51/200]
+2021-05-20 12:26:17.129 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [52/200]
+2021-05-20 12:26:20.764 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [53/200]
+2021-05-20 12:26:24.372 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [54/200]
+2021-05-20 12:26:28.001 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [55/200]
+2021-05-20 12:26:31.632 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [56/200]
+2021-05-20 12:26:35.270 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [57/200]
+2021-05-20 12:26:38.894 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [58/200]
+2021-05-20 12:26:42.518 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [59/200]
+2021-05-20 12:26:46.143 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [60/200]
+2021-05-20 12:26:55.958 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:27:02.950 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1403, HR@50:0.3145, HR@100:0.4172, HR@200:0.5351
+2021-05-20 12:27:02.950 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0764, NDCG@50:0.1143, NDCG@100:0.1309, NDCG@200:0.1475
+2021-05-20 12:27:06.592 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [61/200]
+2021-05-20 12:27:10.207 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [62/200]
+2021-05-20 12:27:13.826 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [63/200]
+2021-05-20 12:27:17.427 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [64/200]
+2021-05-20 12:27:21.042 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [65/200]
+2021-05-20 12:27:24.658 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [66/200]
+2021-05-20 12:27:28.293 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [67/200]
+2021-05-20 12:27:31.918 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [68/200]
+2021-05-20 12:27:35.545 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [69/200]
+2021-05-20 12:27:39.157 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [70/200]
+2021-05-20 12:27:48.894 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:27:55.921 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1424, HR@50:0.3174, HR@100:0.4202, HR@200:0.5390
+2021-05-20 12:27:55.921 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0775, NDCG@50:0.1156, NDCG@100:0.1322, NDCG@200:0.1489
+2021-05-20 12:27:59.626 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [71/200]
+2021-05-20 12:28:03.236 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [72/200]
+2021-05-20 12:28:06.877 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [73/200]
+2021-05-20 12:28:10.546 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [74/200]
+2021-05-20 12:28:14.208 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [75/200]
+2021-05-20 12:28:17.905 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [76/200]
+2021-05-20 12:28:21.557 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [77/200]
+2021-05-20 12:28:25.179 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [78/200]
+2021-05-20 12:28:28.782 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [79/200]
+2021-05-20 12:28:32.382 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [80/200]
+2021-05-20 12:28:42.337 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:28:49.386 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1445, HR@50:0.3190, HR@100:0.4226, HR@200:0.5385
+2021-05-20 12:28:49.386 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0784, NDCG@50:0.1165, NDCG@100:0.1333, NDCG@200:0.1495
+2021-05-20 12:28:53.071 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [81/200]
+2021-05-20 12:28:56.726 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [82/200]
+2021-05-20 12:29:00.398 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [83/200]
+2021-05-20 12:29:04.066 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [84/200]
+2021-05-20 12:29:07.677 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [85/200]
+2021-05-20 12:29:11.298 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [86/200]
+2021-05-20 12:29:14.940 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [87/200]
+2021-05-20 12:29:18.575 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [88/200]
+2021-05-20 12:29:22.280 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [89/200]
+2021-05-20 12:29:25.941 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [90/200]
+2021-05-20 12:29:35.618 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:29:42.760 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1452, HR@50:0.3225, HR@100:0.4229, HR@200:0.5402
+2021-05-20 12:29:42.761 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0789, NDCG@50:0.1176, NDCG@100:0.1338, NDCG@200:0.1502
+2021-05-20 12:29:46.459 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [91/200]
+2021-05-20 12:29:50.091 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [92/200]
+2021-05-20 12:29:53.712 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [93/200]
+2021-05-20 12:29:57.355 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [94/200]
+2021-05-20 12:30:01.017 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [95/200]
+2021-05-20 12:30:04.665 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [96/200]
+2021-05-20 12:30:08.364 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [97/200]
+2021-05-20 12:30:12.040 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [98/200]
+2021-05-20 12:30:15.703 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [99/200]
+2021-05-20 12:30:19.400 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [100/200]
+2021-05-20 12:30:29.887 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:30:37.043 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1466, HR@50:0.3218, HR@100:0.4242, HR@200:0.5420
+2021-05-20 12:30:37.043 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0799, NDCG@50:0.1182, NDCG@100:0.1348, NDCG@200:0.1513
+2021-05-20 12:30:40.645 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [101/200]
+2021-05-20 12:30:44.290 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [102/200]
+2021-05-20 12:30:47.954 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [103/200]
+2021-05-20 12:30:51.635 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [104/200]
+2021-05-20 12:30:55.250 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [105/200]
+2021-05-20 12:30:58.912 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [106/200]
+2021-05-20 12:31:02.532 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [107/200]
+2021-05-20 12:31:06.171 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [108/200]
+2021-05-20 12:31:09.783 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [109/200]
+2021-05-20 12:31:13.383 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [110/200]
+2021-05-20 12:31:22.979 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:31:30.199 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1486, HR@50:0.3232, HR@100:0.4256, HR@200:0.5418
+2021-05-20 12:31:30.200 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0809, NDCG@50:0.1190, NDCG@100:0.1356, NDCG@200:0.1519
+2021-05-20 12:31:33.803 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [111/200]
+2021-05-20 12:31:37.397 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [112/200]
+2021-05-20 12:31:41.010 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [113/200]
+2021-05-20 12:31:44.619 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [114/200]
+2021-05-20 12:31:48.227 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [115/200]
+2021-05-20 12:31:51.872 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [116/200]
+2021-05-20 12:31:55.535 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [117/200]
+2021-05-20 12:31:59.143 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [118/200]
+2021-05-20 12:32:02.800 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [119/200]
+2021-05-20 12:32:06.436 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [120/200]
+2021-05-20 12:32:17.486 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:32:24.838 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1485, HR@50:0.3244, HR@100:0.4258, HR@200:0.5427
+2021-05-20 12:32:24.839 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0808, NDCG@50:0.1193, NDCG@100:0.1357, NDCG@200:0.1520
+2021-05-20 12:32:28.503 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [121/200]
+2021-05-20 12:32:32.148 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [122/200]
+2021-05-20 12:32:35.861 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [123/200]
+2021-05-20 12:32:39.501 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [124/200]
+2021-05-20 12:32:43.134 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [125/200]
+2021-05-20 12:32:46.772 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [126/200]
+2021-05-20 12:32:50.390 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [127/200]
+2021-05-20 12:32:54.024 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [128/200]
+2021-05-20 12:32:57.646 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [129/200]
+2021-05-20 12:33:01.279 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [130/200]
+2021-05-20 12:33:10.951 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:33:18.305 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1488, HR@50:0.3249, HR@100:0.4266, HR@200:0.5428
+2021-05-20 12:33:18.305 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0811, NDCG@50:0.1196, NDCG@100:0.1360, NDCG@200:0.1523
+2021-05-20 12:33:21.969 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [131/200]
+2021-05-20 12:33:25.617 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [132/200]
+2021-05-20 12:33:29.233 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [133/200]
+2021-05-20 12:33:32.834 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [134/200]
+2021-05-20 12:33:36.450 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [135/200]
+2021-05-20 12:33:40.075 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [136/200]
+2021-05-20 12:33:43.694 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [137/200]
+2021-05-20 12:33:47.342 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [138/200]
+2021-05-20 12:33:51.024 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [139/200]
+2021-05-20 12:33:54.679 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [140/200]
+2021-05-20 12:34:04.282 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:34:13.531 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1504, HR@50:0.3255, HR@100:0.4273, HR@200:0.5438
+2021-05-20 12:34:13.531 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0814, NDCG@50:0.1197, NDCG@100:0.1362, NDCG@200:0.1524
+2021-05-20 12:34:17.202 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [141/200]
+2021-05-20 12:34:20.819 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [142/200]
+2021-05-20 12:34:24.452 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [143/200]
+2021-05-20 12:34:28.088 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [144/200]
+2021-05-20 12:34:31.718 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [145/200]
+2021-05-20 12:34:35.333 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [146/200]
+2021-05-20 12:34:38.995 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [147/200]
+2021-05-20 12:34:42.614 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [148/200]
+2021-05-20 12:34:46.263 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [149/200]
+2021-05-20 12:34:49.917 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [150/200]
+2021-05-20 12:34:59.548 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:35:06.969 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1499, HR@50:0.3261, HR@100:0.4274, HR@200:0.5445
+2021-05-20 12:35:06.970 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0815, NDCG@50:0.1201, NDCG@100:0.1365, NDCG@200:0.1528
+2021-05-20 12:35:10.579 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [151/200]
+2021-05-20 12:35:14.235 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [152/200]
+2021-05-20 12:35:17.868 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [153/200]
+2021-05-20 12:35:21.509 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [154/200]
+2021-05-20 12:35:25.134 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [155/200]
+2021-05-20 12:35:28.790 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [156/200]
+2021-05-20 12:35:32.438 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [157/200]
+2021-05-20 12:35:36.061 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [158/200]
+2021-05-20 12:35:39.668 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [159/200]
+2021-05-20 12:35:43.277 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [160/200]
+2021-05-20 12:35:52.882 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:36:02.370 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1506, HR@50:0.3271, HR@100:0.4283, HR@200:0.5449
+2021-05-20 12:36:02.371 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0819, NDCG@50:0.1205, NDCG@100:0.1369, NDCG@200:0.1532
+2021-05-20 12:36:05.999 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [161/200]
+2021-05-20 12:36:09.619 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [162/200]
+2021-05-20 12:36:13.241 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [163/200]
+2021-05-20 12:36:16.857 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [164/200]
+2021-05-20 12:36:20.496 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [165/200]
+2021-05-20 12:36:24.101 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [166/200]
+2021-05-20 12:36:27.753 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [167/200]
+2021-05-20 12:36:31.386 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [168/200]
+2021-05-20 12:36:35.034 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [169/200]
+2021-05-20 12:36:38.664 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [170/200]
+2021-05-20 12:36:48.204 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:36:55.686 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1517, HR@50:0.3262, HR@100:0.4279, HR@200:0.5433
+2021-05-20 12:36:55.686 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0822, NDCG@50:0.1204, NDCG@100:0.1369, NDCG@200:0.1530
+2021-05-20 12:36:59.336 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [171/200]
+2021-05-20 12:37:02.956 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [172/200]
+2021-05-20 12:37:06.607 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [173/200]
+2021-05-20 12:37:10.245 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [174/200]
+2021-05-20 12:37:13.892 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [175/200]
+2021-05-20 12:37:17.520 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [176/200]
+2021-05-20 12:37:21.152 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [177/200]
+2021-05-20 12:37:24.785 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [178/200]
+2021-05-20 12:37:28.401 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [179/200]
+2021-05-20 12:37:32.034 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [180/200]
+2021-05-20 12:37:41.385 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:37:50.784 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1508, HR@50:0.3274, HR@100:0.4288, HR@200:0.5451
+2021-05-20 12:37:50.784 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0821, NDCG@50:0.1207, NDCG@100:0.1372, NDCG@200:0.1534
+2021-05-20 12:37:54.426 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [181/200]
+2021-05-20 12:37:58.080 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [182/200]
+2021-05-20 12:38:01.733 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [183/200]
+2021-05-20 12:38:05.380 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [184/200]
+2021-05-20 12:38:08.992 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [185/200]
+2021-05-20 12:38:12.607 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [186/200]
+2021-05-20 12:38:16.219 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [187/200]
+2021-05-20 12:38:19.871 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [188/200]
+2021-05-20 12:38:23.504 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [189/200]
+2021-05-20 12:38:27.136 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [190/200]
+2021-05-20 12:38:36.566 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:38:44.045 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1519, HR@50:0.3269, HR@100:0.4291, HR@200:0.5448
+2021-05-20 12:38:44.045 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0823, NDCG@50:0.1206, NDCG@100:0.1371, NDCG@200:0.1533
+2021-05-20 12:38:47.660 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [191/200]
+2021-05-20 12:38:51.294 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [192/200]
+2021-05-20 12:38:54.908 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [193/200]
+2021-05-20 12:38:58.525 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [194/200]
+2021-05-20 12:39:02.137 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [195/200]
+2021-05-20 12:39:05.742 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [196/200]
+2021-05-20 12:39:09.349 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [197/200]
+2021-05-20 12:39:12.970 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [198/200]
+2021-05-20 12:39:16.581 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [199/200]
+2021-05-20 12:39:20.185 | INFO     | __main__:<module>:83 - Beibei GMF Epoch [200/200]
+2021-05-20 12:39:29.692 | INFO     | __main__:<module>:94 - Beibei GMF Prediction Completed!
+2021-05-20 12:39:37.314 | INFO     | __main__:<module>:134 - Beibei GMF HR@10:0.1519, HR@50:0.3281, HR@100:0.4279, HR@200:0.5452
+2021-05-20 12:39:37.314 | INFO     | __main__:<module>:135 - Beibei GMF NDCG@10:0.0824, NDCG@50:0.1210, NDCG@100:0.1371, NDCG@200:0.1535
